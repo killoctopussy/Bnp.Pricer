@@ -1,4 +1,4 @@
-# Back Scholes calculator
+# Black Scholes calculator
 
 This application represent how to implement a simple Black Scholes calculator using C# and WPF. 
 
