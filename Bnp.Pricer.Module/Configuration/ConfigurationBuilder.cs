@@ -33,7 +33,7 @@ namespace Bnp.Pricer.Configuration
 		{
 			if ( null == settings )
 			{
-				throw new ArgumentNullException( nameof( settings ) );
+			      throw new ArgumentNullException( nameof( settings ) );
 			}
 
 			_settings = settings;
@@ -59,6 +59,16 @@ namespace Bnp.Pricer.Configuration
 		/// <param name="propertyName"></param>
 		/// <param name="defaultValue"></param>
 		public void AddProperty( string propertyName , bool defaultValue )
+		{
+			AddProperty( propertyName , defaultValue.ToString() );
+		}
+		
+		/// <summary>
+		/// Add a property
+		/// </summary>
+		/// <param name="propertyName"></param>
+		/// <param name="defaultValue"></param>
+		public void AddProperty( string propertyName , byte defaultValue )
 		{
 			AddProperty( propertyName , defaultValue.ToString() );
 		}
