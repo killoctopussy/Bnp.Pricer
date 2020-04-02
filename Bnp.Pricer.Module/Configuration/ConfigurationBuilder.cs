@@ -33,7 +33,7 @@ namespace Bnp.Pricer.Configuration
 		{
 			if ( null == settings )
 			{
-				throw new ArgumentNullException( nameof( settings ) );
+			      throw new ArgumentNullException( nameof( settings ) );
 			}
 
 			_settings = settings;
