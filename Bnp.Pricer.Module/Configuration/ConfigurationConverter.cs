@@ -7,8 +7,6 @@ namespace Bnp.Pricer.Configuration
 	/// </summary>
 	public static class ConfigurationConverter
 	{
-		#region METHODS
-
 		/// <summary>
 		/// Convert to bool
 		/// </summary>
@@ -278,7 +276,5 @@ namespace Bnp.Pricer.Configuration
 
 			return Guid.Empty;
 		}
-
-		#endregion
 	}
 }

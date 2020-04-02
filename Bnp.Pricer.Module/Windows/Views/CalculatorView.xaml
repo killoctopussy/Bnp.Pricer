@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
              xmlns:local="clr-namespace:Bnp.Pricer.Windows.Views"
              xmlns:converters="clr-namespace:Bnp.Pricer.Windows.Converters"
              mc:Ignorable="d" 
@@ -64,6 +65,7 @@
                  Margin="10,56,0,0"
                  Width="100"
                  Text="{Binding Path=Model.StrikePrice,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                 
                  />
 
         <TextBox Grid.Column="1"  

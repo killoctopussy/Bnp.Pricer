@@ -21,18 +21,13 @@ namespace Bnp.Pricer.Configuration
 	/// </summary>
 	public class ConfigurationExceptionEventArgs : EventArgs
 	{
-		#region FIELDS
-
 		/// <summary>
 		/// The message backed field
 		/// </summary>
 		private readonly Exception _exception = null;
 
-		#endregion
-
-
-		#region CONTRUCTORS
 		
+
 		/// <summary>
 		/// Constructor
 		/// </summary>
@@ -48,10 +43,6 @@ namespace Bnp.Pricer.Configuration
 			_exception = exception;
 		}
 
-		#endregion
-
-
-		#region  PROPERTIES
 		
 		/// <summary>
 		/// Gets the exception
@@ -61,6 +52,5 @@ namespace Bnp.Pricer.Configuration
 			get => _exception;
 		} 
 
-		#endregion
 	}
 }

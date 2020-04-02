@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bnp.Pricer.Module", "Bnp.Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bnp.Pricer.Module.Tests", "Bnp.Pricer.Module.Tests\Bnp.Pricer.Module.Tests.csproj", "{8920CC51-C585-48BF-A316-2B7B8F3FA6BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outputs", "Outputs", "{82932D73-0D22-4A8F-8715-A836CAEB7A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{89D745BA-64DD-4F00-9C26-503CC8A874F8}"
+	ProjectSection(SolutionItems) = preProject
+		bin\Debug\settings.xml = bin\Debug\settings.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{E3F7F1C1-3574-40F7-BDC9-3CA05748EB99}"
+	ProjectSection(SolutionItems) = preProject
+		bin\Release\settings.xml = bin\Release\settings.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +42,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89D745BA-64DD-4F00-9C26-503CC8A874F8} = {82932D73-0D22-4A8F-8715-A836CAEB7A7F}
+		{E3F7F1C1-3574-40F7-BDC9-3CA05748EB99} = {82932D73-0D22-4A8F-8715-A836CAEB7A7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1FEB1E3-1EDA-478E-8CFC-86C890437385}

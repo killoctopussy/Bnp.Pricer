@@ -49,6 +49,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlackScholesCalculatorTestExceptions.cs" />
+    <Compile Include="BlackScholesCalculatorTest5.cs" />
+    <Compile Include="BlackScholesCalculatorTest4.cs" />
     <Compile Include="BlackScholesCalculatorTest3.cs" />
     <Compile Include="BlackScholesCalculatorTest2.cs" />
     <Compile Include="BlackScholesCalculatorTest1.cs" />
